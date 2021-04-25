@@ -3,6 +3,7 @@ h1 {color:grey;font-family:verdana}
 .maindiv {
     background-color:white;
     color:black;
+    line-height:20pt
     align:center;
     width:500px;
     padding:20px;
