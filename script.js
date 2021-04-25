@@ -21,7 +21,7 @@ function updateRate()
 function validateInput()
 {
     var input = document.getElementById("principal").value;
-    if (input < 0) {
+    if (input <= 0) {
         alert("Please enter a positive amount");
         document.getElementById("principal").focus();
     }
