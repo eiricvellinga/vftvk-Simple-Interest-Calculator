@@ -17,3 +17,12 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
+
+function validateInput()
+{
+    var input = document.getElementById("principal").value;
+    if (input < 0) {
+        alert("Please enter a positive amount");
+        document.getElementById("principal").focus();
+    }
+}
